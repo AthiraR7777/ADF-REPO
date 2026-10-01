@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-athira"
+		},
+		"datalakeDL_accountKey": {
+			"value": ""
+		},
+		"sqlDL_password": {
+			"value": ""
+		},
+		"datalakeDL_properties_typeProperties_url": {
+			"value": "https://adfathirastaccount.dfs.core.windows.net/"
+		},
+		"sqlDL_properties_typeProperties_server": {
+			"value": "sqldbathira.database.windows.net"
+		},
+		"sqlDL_properties_typeProperties_database": {
+			"value": "adfdatabase"
+		},
+		"sqlDL_properties_typeProperties_userName": {
+			"value": "athira"
+		},
+		"EventTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/a490b77c-69d7-4e67-8444-09e353eb260a/resourceGroups/MyRG/providers/Microsoft.Storage/storageAccounts/adfathirastaccount"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
