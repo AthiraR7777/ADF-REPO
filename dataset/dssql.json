@@ -1,0 +1,17 @@
+{
+	"name": "dssql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlDL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "sink",
+			"table": "employees"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

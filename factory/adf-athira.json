@@ -1,0 +1,15 @@
+{
+	"name": "adf-athira",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "uaenorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5dca6b50-76de-4c18-97c9-63179b2aac76",
+		"tenantId": "e8c52f7b-a15c-4a19-91c1-740d0c53be6d"
+	}
+}
